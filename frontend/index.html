@@ -287,6 +287,7 @@
             statusEl.innerText = `(${data.summary})`;
             statusEl.style.color = data.summary === "PROFIT" ? "green" : "red";
         }
+        window.addEventListener('DOMContentLoaded', loadInventory);
     </script>
 </body>
 </html>
